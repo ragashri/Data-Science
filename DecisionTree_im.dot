@@ -1,0 +1,24 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="Installs <= 750000.0\nmse = 0.285\nsamples = 6669\nvalue = 4.184"] ;
+1 [label="CategoryUpdated <= 27.5\nmse = 0.424\nsamples = 3663\nvalue = 4.109"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Installs <= 3000.0\nmse = 0.413\nsamples = 3070\nvalue = 4.135"] ;
+1 -> 2 ;
+3 [label="mse = 0.694\nsamples = 868\nvalue = 4.244"] ;
+2 -> 3 ;
+4 [label="Installs <= 75000.0\nmse = 0.295\nsamples = 2202\nvalue = 4.092"] ;
+2 -> 4 ;
+5 [label="mse = 0.364\nsamples = 1162\nvalue = 4.04"] ;
+4 -> 5 ;
+6 [label="mse = 0.212\nsamples = 1040\nvalue = 4.151"] ;
+4 -> 6 ;
+7 [label="mse = 0.462\nsamples = 593\nvalue = 3.973"] ;
+1 -> 7 ;
+8 [label="Installs <= 7500000.0\nmse = 0.1\nsamples = 3006\nvalue = 4.275"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="mse = 0.126\nsamples = 1618\nvalue = 4.218"] ;
+8 -> 9 ;
+10 [label="mse = 0.062\nsamples = 1388\nvalue = 4.343"] ;
+8 -> 10 ;
+}
