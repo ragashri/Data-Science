@@ -1,2 +1,6 @@
 # Data-Science
-Implemented use cases which follow Data Science process
+1) Google-Playstore-Rating-Prediction-using-Regression
+2) Algorithms implemented :
+    i) Decision Tree Regressor
+
+
